@@ -1,228 +1,280 @@
 [[CHiPPS_BLIS]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0fd542f4f70fb1da16da91297336bc453c21a621"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "007504bc52e3151836426b627279fa4deefe5d6c48a17554166933057a86890e"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.aarch64-linux-gnu-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a0c84fc96c49a3beb17f95cf7902319ff2eef454"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "14197343cf9653899f84106e466b27007dcb73e875f2bece50de12b03b71723d"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.aarch64-linux-gnu-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "fd2f0f1b14bb8ffc45b771897f53f9aef65cc266"
-libc = "musl"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "22be10201a19cd0935454828d028852d6f04118f16e170d74111c89c58c9a3a8"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.aarch64-linux-musl-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4f4e3c1ddbc7a680a4e9ddf7bc41cbb5a325570c"
-libc = "musl"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "dc00da1a667a7b3a9a653ae4cf95b44045c60fc0dd82c3921aabf86f93873542"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.aarch64-linux-musl-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "151d692437cb8584863def6a3b7387bb7b42c9b5"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "d7f3211b689fca4d91fddc6e10d6124c8cfa0e097507a5a01e6eebe01ced4a97"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "aa3288b929b89b82195b96a9fca663c07914d6d3"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "6d3724a2d211caa9d4f4709fd2d547233d5fbd64cf424762c05f51df1833992b"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a73360609d9ed1b623ccf3a41aff4e557a9125b4"
-libc = "musl"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "d00c3c1566dd6b29ed2b2ad31651bab9566f2194c8d905c45c9a6263ab6280e7"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "9edc5d5ec08ea2d5b52532bf80a0a581a05e142e"
-libc = "musl"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "b95e5d2f5dcbad4bfcbe954f06dd3647a879d1aada54402fc688a3151ca2031f"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "91327dbe39d4f94f829554af54809433efd66547"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "c09d6ee2b54058c3dea59b8e667215d33221cd621a329f0086d7a30ef28872c3"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.i686-linux-gnu-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "871ad2634775931c163a0647d66006bfc5ad34c3"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "17009f371e4632cfcd652c5bf7807bea6b30060de9d4e880165a2cee5f7c22de"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.i686-linux-gnu-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "67b7730dac5f3b7f348050c87649799121fdba42"
-libc = "musl"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "89f7b14b4c4c18c7d318f886909beebd9e4848bbf3058b90e5671cdb06f256c3"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.i686-linux-musl-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "198ce250886a33cec7210740f2e5867d18ba141d"
-libc = "musl"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "f5ddf73e8585a30a1fba180206a69c1e1ba08bc38d8dfc1dabc7bcf8ec9f4c5f"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.i686-linux-musl-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "016530a8c8560686b467212e315748aeaf337f3c"
-os = "windows"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "5ff09b725973b0da3a9e9176a0b94f485c4ba671ffd88749c2deb65ffe77544f"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.i686-w64-mingw32-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8090b1ff578b1232859f39f6dd9770c7f7c29cad"
-os = "windows"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "eb0b1f63e195419817ce1719bc947d470449ab73cf090dfbdb46b758b44df045"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.i686-w64-mingw32-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ae43f031071167d977a4f0bb61cf8322dc2c9514"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "180fd2abf79d8f2a9c1df547d1a7f8423c2af9d868d62e339e10a523c329bbdb"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4e2f28cebb2ae7c0b9833b41afe79cc81df64874"
-libc = "glibc"
-os = "linux"
-
-    [[CHiPPS_BLIS.download]]
-    sha256 = "0dcb7ff3916413277e080627cdd970aa7ce8f56a13ea6cdecda501f8adeb7722"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[CHiPPS_BLIS]]
-arch = "x86_64"
-git-tree-sha1 = "c394fc7710011a0071cd610ede42e53453e4fab4"
+git-tree-sha1 = "994dd1ff1ea3b7c8824bf6505b5953e07b8d2d75"
 os = "macos"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "c955b287aa183f9a5e7d5dac0c398d0e64ab2085379083d9ecddcad5e578da05"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-apple-darwin.tar.gz"
+    sha256 = "4a7a86abdc8f473422822c37d65fc49f99eabb5d5f6d32e2b88dd37683b1b6f5"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.aarch64-apple-darwin.tar.gz"
 [[CHiPPS_BLIS]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "97f3e52c5dbe8ce57f932fdd0d7c8879826f05d1"
+git-tree-sha1 = "9ce3e9599fd08c724076face63fc14c2c3432b05"
 libc = "glibc"
 os = "linux"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "43831b687c1e6e261a43e52dbc93b0e9930e95e209d67559e4341f1f920c13b5"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "e63095b7deccc09a74b25730b759452eb2c053381f1606f0cb7b27bd34de0ce3"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.aarch64-linux-gnu-cxx03.tar.gz"
 [[CHiPPS_BLIS]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b1cd49f71dcf06bb30735bf36a6d33a7665fc78e"
+git-tree-sha1 = "8bb65b93937eabc1790e1b97a31da4086c5be247"
 libc = "glibc"
 os = "linux"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "dce0ac1d8a89365d6ca6c76f57ca187ac7a81c112ffcb47de57c5339343fc065"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "29a4718a7f4912597dc5f8a484036e648c37cffb96e7a55d44118f038f24d11a"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.aarch64-linux-gnu-cxx11.tar.gz"
 [[CHiPPS_BLIS]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c496257239a8b836f5ccc8c6be9d916914e88c8c"
+git-tree-sha1 = "58e3efe6376ed03e47f4f4b42043606bc86dccf3"
 libc = "musl"
 os = "linux"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "504166dd35b9ae7c45aacbd238fed37d4491fbb1ba9d661fbbb86063ccc767f0"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "1f865b42fb24fb4914f7cb0d2017b0c29b8d2b901fbb72a361c51407eb2004e7"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.aarch64-linux-musl-cxx03.tar.gz"
 [[CHiPPS_BLIS]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "506125650aefc9aaacdb6039a3aec3aec900ac6a"
+git-tree-sha1 = "8fa7deebe784837a90c442ac39dc77d72d1e2268"
 libc = "musl"
 os = "linux"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "a0696be54a7c37b5da61ac8ea9f9ef0b4b9b668477da581fcd0b6fab7c238fc8"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "9b4b8d1e3c34b9472f3ff9c33ef74f8221391f47db8009615c121b4d3e229358"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.aarch64-linux-musl-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1004657feb13cde89a9acd185a0951fcc611d2d9"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "3dd2db8c73d24c2d1ec619d7b57870ca5e89a6574edd2ad54cc3c43844254202"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "69c1ef74237522450d669dd209ac0dab7b31e287"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "27a4c360a294521d448f7a289da6d05c63498721efa914fb8713cd435571d4d7"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "716525c1a94c2f73054bf3a173a57bff570e9fc5"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "56f38c9d5624e8204225a4bf42e80bd2f01a33d3141a8dfe5473e7f6b7ba1d47"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ed16777773395061abd8addb76d8faf538034cc1"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "92de637b4af401dcc84a2c8dae2f9525f1b04bc75f859bdd91fc74a53b5beba4"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "79d903b70cd7a504a76c43f8a01ca06d3a43e267"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "1d488b36d73c3c123024f144835dd6cf8f8a21744f96dbffab331c08d7ef7d76"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d6c5362b2fe8499e44a00bf0de2e00a1add35184"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "055f3e83c5f884365e18bee4c5414fcf7ba2ef957d77b9c453354a51082bf6d1"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a429d6b0ba9aad75c017a18ce5a4e4665424417c"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "4299d19f5625ffc53d0cf3025c8c158580ec27af2c604416e96f294def85a3e5"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2c5cfcd1a743e69f00f87f81876caa54c74c13e6"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "0d8ad58c1c32d74114b9943501853960d7357951fbb438e05c5691e736b372cc"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "de4ec85be5f9fc51d0e1db495895ff7ff93936d3"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "33369dd2809de44208ba31f9b97092641d65103082bfba37ba152b82a1d94659"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.i686-linux-gnu-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "56c0888eed295697bdc57013a47e373c1c2443f0"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "0a1b17ff7e2e8c76ffe62b450d4bd81f7eddf4ef886b6423f510c6d2128e4e60"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.i686-linux-gnu-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "eb85df182e00778bdd8fc5d1702a1851c974f44a"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "0e09109114bd530a57fa5ff978abb79d246b63d0b1e4583ae89c3a51bc5f0fd2"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.i686-linux-musl-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b1adbb1f0c38d39a379e97a08ff9fa589feaa961"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "7c56f7ae9aad62fc9baa4b6918005e9789bd40ad2b9bc2d331c41478b640d8f6"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.i686-linux-musl-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "87d383664a97e1ef352638722d0e2dc78405f38c"
+os = "windows"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "15b83356e676e66e43d5b4ec319dc2724ee8328dafce5106db265a97fba1aa49"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.i686-w64-mingw32-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "edde63fc989c20a38d8d75d2eee701c56f4024bb"
+os = "windows"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "dfe64435c0f39454f9d4957d56e3d1e7312bd5cdf93eda384661320596b9070c"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.i686-w64-mingw32-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2c24dea0f30b071723294ec3a092963d73fc091d"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "463cabe9d0d73b6545cf06f866919962128035d7b8269b1e8c9dee3f5d31f01f"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8dc5f584d767d46ec1efb33e440b030c7dc921c0"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "79bf62b3b010433140f48ff76e54ce37591c0c95cfbd7732c27bc77fc5183ac7"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "x86_64"
+git-tree-sha1 = "2314ad59d5990fd9b0836832c0056f2bcd1b672d"
+os = "macos"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "4670a0aae3c187f41145adcea84ffdc33203fca8beec9c4963cf9146528abe91"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-apple-darwin.tar.gz"
 [[CHiPPS_BLIS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "984372dc13743f9cf5a08eb229d9ea4b33ca3705"
-os = "windows"
+git-tree-sha1 = "586272eb9fb0a02284bc72311067857a7513400f"
+libc = "glibc"
+os = "linux"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "aeb6d9417f923dcd62fc2a6d9c7ca58075e91bd7c62759567f81927c62b44445"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "33fa5f5497552f142f77eb987180eecd0b51ee1ca589dc4bd4ed8744179ebacd"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-linux-gnu-cxx03.tar.gz"
 [[CHiPPS_BLIS]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f7a2cb95f54bf1a1348bce91cb12a27079214648"
+git-tree-sha1 = "6588262151d27c4c3f907fffb9fe19be05513d95"
+libc = "glibc"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "a7810e001663f4596608dc524fd6c992e5710dbfd8e53dfc8d4b8545ca7ccd43"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-linux-gnu-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "699176d9a74b1c116e3d1f9cc7e1212d1a2144a9"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "713c45ad0d62e0b656b911a668b0d427816e8e00520b01e67eb5cb2ecaefb0c5"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-linux-musl-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "140e3e7ac5832b4febafb64bb39a7ae50876f965"
+libc = "musl"
+os = "linux"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "662e77472e124be1b95f588aaa45ec91839b6588b8f8a30f218c0cde62b5c040"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-linux-musl-cxx11.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ee6a93cc2b0e970cc874ef6c2a20161095e6bccf"
 os = "windows"
 
     [[CHiPPS_BLIS.download]]
-    sha256 = "9bb2c34f250a249dec18b7d7a579fb8f97edc4daddd8379e7af71d4f8b9647e6"
-    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.801+0/CHiPPS_BLIS.v0.9400.801.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "471d6bcf78eb14f92f8babb74e93d0a768b019a50766d5fa78a49152a5ff3041"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-w64-mingw32-cxx03.tar.gz"
+[[CHiPPS_BLIS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4b1070b57798f95d72e79a3638122af1da7c95f7"
+os = "windows"
+
+    [[CHiPPS_BLIS.download]]
+    sha256 = "85b8fa855cbff67d4ac8f5208f3b3e944972a13f59a4773932ebb11ed4c93b6d"
+    url = "https://github.com/JuliaBinaryWrappers/CHiPPS_BLIS_jll.jl/releases/download/CHiPPS_BLIS-v0.9400.802+0/CHiPPS_BLIS.v0.9400.802.x86_64-w64-mingw32-cxx11.tar.gz"

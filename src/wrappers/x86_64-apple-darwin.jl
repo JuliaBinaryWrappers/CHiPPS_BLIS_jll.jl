@@ -9,19 +9,19 @@ using ALPS_jll
 using BiCePS_jll
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("CHiPPS_BLIS")
-JLLWrappers.@declare_executable_product(blis)
 JLLWrappers.@declare_library_product(libblis, "@rpath/libBlis.0.dylib")
+JLLWrappers.@declare_executable_product(blis)
 function __init__()
     JLLWrappers.@generate_init_header(CoinUtils_jll, Osi_jll, Clp_jll, Cgl_jll, ALPS_jll, BiCePS_jll, CompilerSupportLibraries_jll)
-    JLLWrappers.@init_executable_product(
-        blis,
-        "bin/blis",
-    )
-
     JLLWrappers.@init_library_product(
         libblis,
         "lib/libBlis.0.0.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        blis,
+        "bin/blis",
     )
 
     JLLWrappers.@generate_init_footer()

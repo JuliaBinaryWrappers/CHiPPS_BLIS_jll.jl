@@ -1,6 +1,6 @@
 name = "CHiPPS_BLIS_jll"
 uuid = "33c101cd-e3cd-5787-bb96-d137b8b1ecc4"
-version = "0.9400.801+0"
+version = "0.9400.802+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -18,3 +18,9 @@ CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
+ALPS_jll = "100.500.702"
+CoinUtils_jll = "200.1100.400"
+BiCePS_jll = "0.9400.400"
+Cgl_jll = "0.6000.300"
+Clp_jll = "100.1700.601"
+Osi_jll = "0.10800.600"
